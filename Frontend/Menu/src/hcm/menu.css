@@ -49,6 +49,7 @@ header .profile p{
     text-overflow: ellipsis;
     white-space: nowrap;
     font-size: 12px;
+    font-weight: 450;
     font-family: Poppins;
     margin: 8px 0;
 }
