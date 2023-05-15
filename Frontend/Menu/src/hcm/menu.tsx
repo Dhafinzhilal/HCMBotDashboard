@@ -5,7 +5,7 @@ import pp from '../assets/dhafin.jpg';
 
 
 
-const App: Component = () => {
+const Dahsboard: Component = () => {
 
   const [logoimage] = createSignal(logoputih);
   const [ppsaya] = createSignal(pp);
@@ -114,14 +114,24 @@ const App: Component = () => {
     </a>
   </li>
   <div class='line'></div>
-
-
-</ul>
-
-
-
+      </ul>
+      <div class="content">
+        <div class="list">
+          <div class='box1'>
+            <div class='content1'></div>
+            <div class='content1'></div>
+          </div>
+          <div class='box2'>
+            <div class='content1'></div>
+          </div>
+          <div class='box1'>
+          <div class='content1'></div>
+          <div class='content1'></div>
+          </div>
+        </div>
+      </div>
     </div>
     );
 };
 
-export default App;
+export default Dahsboard;

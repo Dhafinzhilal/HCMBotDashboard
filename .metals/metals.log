@@ -1,0 +1,34 @@
+2023.05.15 08:13:42 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\user\Documents\HCMBotDashboard-temporary\HCMBotDashboard-temporary' for client Visual Studio Code 1.75.1.
+May 15, 2023 8:13:43 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+May 15, 2023 8:13:43 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+May 15, 2023 8:13:43 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+May 15, 2023 8:13:44 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\user\Documents\HCMBotDashboard-temporary\HCMBotDashboard-temporary\.metals\metals (H2 2.1)
+May 15, 2023 8:13:44 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+May 15, 2023 8:13:44 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.045s)
+May 15, 2023 8:13:44 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+May 15, 2023 8:13:44 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+May 15, 2023 8:13:44 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+May 15, 2023 8:13:44 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+May 15, 2023 8:13:44 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+May 15, 2023 8:13:44 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+May 15, 2023 8:13:44 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.110s)
+2023.05.15 08:13:44 INFO  time: initialize in 1.51s
+2023.05.15 08:13:45 WARN  Build server is not auto-connectable.
+2023.05.15 08:13:45 WARN  no build tool detected in workspace 'C:\Users\user\Documents\HCMBotDashboard-temporary\HCMBotDashboard-temporary'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+May 15, 2023 9:38:52 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 15, 2023 9:38:52 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
